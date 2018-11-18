@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/accalina/wireframe/pos_wireframe';
+$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'] .'/accalina/wireframe/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/accalina/wireframe/pos_wireframe';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = 'main';
 
 /*
 |--------------------------------------------------------------------------
